@@ -1,0 +1,172 @@
+/* Research Page Specific Styles */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 0.6s ease-out forwards;
+}
+
+.slide-right {
+    opacity: 0;
+    transform: translateX(30px);
+    animation: slideRight 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Hover Effects */
+.hover-lift {
+    transition: transform 0.2s ease-out;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Styles */
+.research-card {
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.research-card-header {
+    background: linear-gradient(to right, #1E293B, #364559);
+    color: white;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(30, 41, 59, 0.3);
+    mix-blend-mode: multiply;
+    z-index: 10;
+}
+
+.hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), transparent);
+    z-index: 10;
+}
+
+/* Research Focus Areas */
+.focus-area-card {
+    background: #F8FAFC;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    border: 1px solid #E2E8F0;
+    transition: all 0.2s ease-out;
+}
+
+.focus-area-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Publications */
+.publication-item {
+    border-left: 4px solid rgba(30, 41, 59, 0.7);
+    padding-left: 1rem;
+    transition: border-color 0.2s ease-out;
+}
+
+.publication-item:hover {
+    border-color: #1E293B;
+}
+
+/* Research Centers */
+.research-center-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    margin: 0 -0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-out;
+}
+
+.research-center-item:hover {
+    background-color: rgba(30, 41, 59, 0.05);
+}
+
+.icon-circle {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 9999px;
+    background-color: rgba(30, 41, 59, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-out;
+}
+
+.research-center-item:hover .icon-circle {
+    background-color: rgba(30, 41, 59, 0.2);
+}
+
+/* Research Grants Card */
+.grants-card {
+    background: linear-gradient(to bottom right, #1E293B, #364559);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease-out;
+}
+
+.grants-card:hover {
+    transform: translateY(-5px);
+}
+
+.circle-decoration {
+    position: absolute;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.circle-decoration.large {
+    height: 10rem;
+    width: 10rem;
+    right: -2.5rem;
+    bottom: -2.5rem;
+}
+
+.circle-decoration.small {
+    height: 5rem;
+    width: 5rem;
+    right: 2.5rem;
+    top: 2.5rem;
+}
+
+/* Backdrop blur effect */
+.backdrop-blur {
+    backdrop-filter: blur(4px);
+} 

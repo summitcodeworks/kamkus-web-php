@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Icon Test</title>
+    <link rel="stylesheet" href="css/custom-icons.css">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: #f0f0f0;
+        }
+        .test-header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .test-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Icon Test</h1>
+    
+    <div class="test-header">
+        <h2>Header Simulation</h2>
+        <div>
+            <span class="icon icon-lg icon-phone"></span> Phone: +91 93100 06444
+        </div>
+        <div>
+            <span class="icon icon-lg icon-email"></span> Email: kamkus.law@gmail.com
+        </div>
+        <div>
+            About <span class="icon icon-dropdown"></span> | 
+            Academics <span class="icon icon-dropdown"></span> | 
+            Infrastructure <span class="icon icon-dropdown"></span>
+        </div>
+    </div>
+
+    <div class="test-item">
+        <strong>Phone Icon:</strong> <span class="icon icon-phone"></span> Should show "TEL"
+    </div>
+    
+    <div class="test-item">
+        <strong>Email Icon:</strong> <span class="icon icon-email"></span> Should show "@"
+    </div>
+    
+    <div class="test-item">
+        <strong>Dropdown Icon:</strong> <span class="icon icon-dropdown"></span> Should show "v"
+    </div>
+    
+    <div class="test-item">
+        <strong>Large Phone:</strong> <span class="icon icon-lg icon-phone"></span> Should show larger "TEL"
+    </div>
+    
+    <div class="test-item">
+        <strong>Large Email:</strong> <span class="icon icon-lg icon-email"></span> Should show larger "@"
+    </div>
+
+    <h3>All Icons Test:</h3>
+    <div class="test-item">
+        Home: <span class="icon icon-home"></span> |
+        Book: <span class="icon icon-book"></span> |
+        Building: <span class="icon icon-building"></span> |
+        User: <span class="icon icon-user"></span> |
+        Calendar: <span class="icon icon-calendar"></span> |
+        Search: <span class="icon icon-search"></span> |
+        Edit: <span class="icon icon-edit"></span> |
+        Arrow: <span class="icon icon-arrow-right"></span> |
+        Check: <span class="icon icon-check"></span> |
+        Close: <span class="icon icon-close"></span>
+    </div>
+
+    <script>
+        // Check if CSS is loading
+        setTimeout(function() {
+            const phoneIcon = document.querySelector('.icon-phone');
+            const computedStyle = window.getComputedStyle(phoneIcon, '::before');
+            const content = computedStyle.getPropertyValue('content');
+            
+            if (content && content !== 'none') {
+                console.log('Icons are working! Phone icon content:', content);
+                document.body.style.borderTop = '5px solid green';
+            } else {
+                console.log('Icons not working. Content:', content);
+                document.body.style.borderTop = '5px solid red';
+            }
+        }, 100);
+    </script>
+</body>
+</html> 

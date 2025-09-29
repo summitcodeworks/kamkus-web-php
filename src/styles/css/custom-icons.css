@@ -1,0 +1,342 @@
+/* Simple Text-Based Icons for Kamkus College Website */
+/* Using basic ASCII and CSS symbols for maximum compatibility */
+
+/* Base icon styles */
+.icon {
+    display: inline-block !important;
+    width: auto !important;
+    height: auto !important;
+    vertical-align: middle !important;
+    margin-right: 5px !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.icon-lg {
+    font-size: 14px !important;
+}
+
+.icon-xl {
+    font-size: 16px !important;
+}
+
+/* Phone Icon */
+.icon-phone::before {
+    content: "TEL" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.icon-lg.icon-phone::before {
+    font-size: 14px !important;
+}
+
+.icon-xl.icon-phone::before {
+    font-size: 16px !important;
+}
+
+/* Email Icon */
+.icon-email::before {
+    content: "@" !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.icon-lg.icon-email::before {
+    font-size: 16px !important;
+}
+
+.icon-xl.icon-email::before {
+    font-size: 18px !important;
+}
+
+/* Dropdown Arrow */
+.icon-dropdown::before {
+    content: "▼" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+    margin-right: 0 !important;
+    color: inherit !important;
+}
+
+/* Home Icon */
+.icon-home::before {
+    content: "HOME" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Graduation Cap */
+.icon-graduation::before {
+    content: "GRAD" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Book Icon */
+.icon-book::before {
+    content: "BOOK" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Building Icon */
+.icon-building::before {
+    content: "BLDG" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* User Icon */
+.icon-user::before {
+    content: "USER" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Users Icon */
+.icon-users::before {
+    content: "USERS" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Calendar Icon */
+.icon-calendar::before {
+    content: "CAL" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Clock Icon */
+.icon-clock::before {
+    content: "TIME" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Download Icon */
+.icon-download::before {
+    content: "DOWN" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Upload Icon */
+.icon-upload::before {
+    content: "UP" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Search Icon */
+.icon-search::before {
+    content: "FIND" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Edit Icon */
+.icon-edit::before {
+    content: "EDIT" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Arrow Right */
+.icon-arrow-right::before {
+    content: ">" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+/* Arrow Left */
+.icon-arrow-left::before {
+    content: "<" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+/* Chevron Right */
+.icon-chevron-right::before {
+    content: ">" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Menu/Bars Icon */
+.icon-menu::before {
+    content: "MENU" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Check Icon */
+.icon-check::before {
+    content: "OK" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    color: green !important;
+}
+
+/* Close/Times Icon */
+.icon-close::before {
+    content: "X" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+/* Star Icon */
+.icon-star::before {
+    content: "*" !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+/* Award Icon */
+.icon-award::before {
+    content: "AWARD" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Camera Icon */
+.icon-camera::before {
+    content: "CAM" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Images Icon */
+.icon-images::before {
+    content: "PICS" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Eye/View Icon */
+.icon-eye::before {
+    content: "VIEW" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* External Link Icon */
+.icon-external::before {
+    content: "LINK" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Laptop Icon */
+.icon-laptop::before {
+    content: "PC" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* TV Icon */
+.icon-tv::before {
+    content: "TV" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* WiFi Icon */
+.icon-wifi::before {
+    content: "WIFI" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* University Icon */
+.icon-university::before {
+    content: "UNI" !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+/* Loading Spinner */
+.icon-spinner::before {
+    content: "..." !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+/* Specific spacing for different contexts */
+.contact-info .icon {
+    margin-right: 6px !important;
+}
+
+.dropdown .icon-dropdown {
+    margin-left: 3px !important;
+    margin-right: 0 !important;
+}
+
+.breadcrumb .icon-chevron-right {
+    margin: 0 6px !important;
+    color: #666 !important;
+}
+
+.btn .icon {
+    margin-right: 6px !important;
+}
+
+/* Header specific styling */
+.top-bar .icon-phone::before,
+.top-bar .icon-email::before {
+    color: white !important;
+}
+
+.top-bar .icon-dropdown::before,
+.main-nav .icon-dropdown::before {
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .icon {
+        margin-right: 3px !important;
+    }
+    
+    .contact-info .icon {
+        margin-right: 4px !important;
+    }
+    
+    .icon-dropdown::before {
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-dropdown::before {
+        font-size: 6px !important;
+    }
+    
+    .breadcrumb .icon-chevron-right {
+        margin: 0 4px !important;
+        font-size: 8px !important;
+    }
+}
+
+/* Print styles */
+@media print {
+    .icon {
+        display: none !important;
+    }
+}
+
+/* Make dropdown arrows more visible in navigation */
+.main-nav .icon-dropdown::before {
+    font-size: 14px !important;
+    margin-left: 8px !important;
+}
+
+/* Top bar dropdown styling */
+.top-bar .icon-dropdown::before {
+    font-size: 12px !important;
+    margin-left: 5px !important;
+} 

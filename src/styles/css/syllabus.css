@@ -1,0 +1,334 @@
+/* Syllabus Page Styles */
+:root {
+    --primary-color: #8B2131;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.w-24 {
+    width: 6rem;
+}
+
+.h-1 {
+    height: 0.25rem;
+}
+
+/* Table Styles */
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.min-w-full {
+    min-width: 100%;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-gray-300 {
+    border-color: #d1d5db;
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.text-left {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Note Text */
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Back Link */
+.inline-flex {
+    display: inline-flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .p-6 {
+        padding: 1rem;
+    }
+
+    .text-3xl {
+        font-size: 1.5rem;
+    }
+
+    .text-2xl {
+        font-size: 1.25rem;
+    }
+
+    .text-xl {
+        font-size: 1.125rem;
+    }
+
+    .overflow-x-auto {
+        margin: 0 -1rem;
+        padding: 0 1rem;
+    }
+}
+
+/* Table Hover Effects */
+tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Print Styles */
+@media print {
+    .bg-gray-100 {
+        background-color: white;
+    }
+
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+
+    .rounded-lg {
+        border-radius: 0;
+    }
+
+    .shadow-lg {
+        box-shadow: none;
+    }
+
+    .hover\:underline:hover {
+        text-decoration: none;
+    }
+}
+
+.syllabus-container {
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.syllabus-content {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.syllabus-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #8B2131;
+    margin-bottom: 0.5rem;
+}
+
+.title-underline {
+    width: 6rem;
+    height: 0.25rem;
+    background-color: #8B2131;
+    margin-bottom: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #8B2131;
+    margin-bottom: 1rem;
+}
+
+.year-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.syllabus-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    display: block;
+}
+
+.syllabus-table table {
+    min-width: 100%;
+    background-color: white;
+}
+
+.syllabus-table th {
+    background-color: #f3f4f6;
+    padding: 0.75rem 1rem;
+    text-align: left; /* Keep headers left-aligned for readability */
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+}
+
+.syllabus-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.syllabus-table tr:last-child td {
+    border-bottom: none;
+}
+
+.syllabus-note {
+    color: #4b5563;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    color: #8B2131;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.back-link i {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .syllabus-container {
+        padding: 1rem;
+    }
+    
+    .syllabus-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.25rem;
+    }
+    
+    .year-title {
+        font-size: 1.125rem;
+    }
+} 

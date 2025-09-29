@@ -1,0 +1,210 @@
+/* Cafeteria Page Styles */
+
+/* Colors */
+:root {
+    --primary: #1E293B;
+    --primary-light: #364559;
+    --light: rgba(30, 41, 59, 0.05);
+    --yellow: #FCD34D;
+}
+
+/* Background Gradients */
+.bg-gradient-light {
+    background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+/* Overlays */
+.bg-overlay {
+    background-color: rgba(30, 41, 59, 0.3);
+    mix-blend-mode: multiply;
+}
+
+.bg-gradient-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), transparent);
+}
+
+/* Hover Effects */
+.hover-transform {
+    transition: transform 0.3s ease;
+}
+
+.hover-transform:hover {
+    transform: translateY(-5px);
+}
+
+.hover-text-primary:hover {
+    color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+.hover-bg-light:hover {
+    background-color: var(--light);
+    transition: background-color 0.3s ease;
+}
+
+.hover-bg-white\/20:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .lg\:col-span-2 {
+        grid-column: span 2 / span 2;
+    }
+}
+
+/* Spacing */
+.gap-8 {
+    gap: 2rem;
+}
+
+.gap-6 {
+    gap: 1.5rem;
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.space-y-8 > * + * {
+    margin-top: 2rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.space-y-3 > * + * {
+    margin-top: 0.75rem;
+}
+
+/* Typography */
+.prose {
+    max-width: 65ch;
+    line-height: 1.75;
+}
+
+.prose p {
+    margin-bottom: 1.25em;
+}
+
+/* Components */
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+/* Hero Section */
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive Text */
+@media (min-width: 768px) {
+    .md\:text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+/* Utilities */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+} 
