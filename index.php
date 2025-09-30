@@ -32,10 +32,18 @@ include 'src/includes/header.php';
     <div class="news-ticker">
         <div class="container">
             <div class="ticker-content">
-                <span style="color: white">Admissions for 2025-26 academic session now open</span>
-                <span style="color: white">National Moot Court Competition to be held on 15th December</span>
-                <span style="color: white">Legal Aid Clinic inaugurated by Hon'ble Justice</span>
-                <span style="color: white">Admissions for 2025-26 academic session now open</span>
+                <div class="ticker-item">
+                    <span style="color: white"><a href="online">Click Here to Submit your Fee Online</a></span>
+                    <span style="color: white"><a href="assets/pdf/aibe.pdf">Click Here to Practice For AIBE Exam</a></span>
+                    <span style="color: white"><a href="https://kamkus.org/onlinetestmgt/index.html">Click Here to Practice For Judiciary Exam</a></span>
+                    <span style="color: white"><a href="https://www.youtube.com/channel/UCD7n6MPZrC6WW0J5kiy-CRw/videos">Kamkus Official Youtube Channel</a></span>
+                </div>
+                <div class="ticker-item">
+                    <span style="color: white"><a href="online">Click Here to Submit your Fee Online</a></span>
+                    <span style="color: white"><a href="assets/pdf/aibe.pdf">Click Here to Practice For AIBE Exam</a></span>
+                    <span style="color: white"><a href="https://kamkus.org/onlinetestmgt/index.html">Click Here to Practice For Judiciary Exam</a></span>
+                    <span style="color: white"><a href="https://www.youtube.com/channel/UCD7n6MPZrC6WW0J5kiy-CRw/videos">Kamkus Official Youtube Channel</a></span>
+                </div>
             </div>
         </div>
     </div>

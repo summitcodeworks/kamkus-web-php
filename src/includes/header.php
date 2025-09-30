@@ -1076,7 +1076,7 @@
                 <div class="dropdown">
                     <a href="#">Student Corner ▼</a>
                     <ul class="dropdown-content">
-                        <li><a href="https://kamkus.org/student_login.php">Student Login</a></li>
+                        <li><a href="https://kamkus.org/student_login.html">Student Login</a></li>
                         <li><a href="<?php echo $base_url; ?>src/pages/student-corner/student-participation.php">Student Paticipation</a></li>
                         <li class="has-submenu"><a href="#">Cultural Activities</a>
                             <ul class="sub-dropdown">

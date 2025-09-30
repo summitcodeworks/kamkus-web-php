@@ -493,7 +493,14 @@ header {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
+    width: 100%;
+}
+
+.ticker-item {
+    display: flex;
+    white-space: nowrap;
     animation: ticker 30s linear infinite;
+    flex-shrink: 0;
 }
 
 .ticker-content span {
@@ -501,6 +508,7 @@ header {
     font-weight: 400;
     position: relative;
     opacity: 0.9;
+    flex-shrink: 0;
 }
 
 .ticker-content span:not(:last-child):after {
@@ -508,6 +516,16 @@ header {
     position: absolute;
     right: 0;
     color: #fff;
+}
+
+.ticker-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.ticker-content a:hover {
+    color: #ffd700;
+    text-decoration: underline;
 }
 
 @keyframes ticker {
